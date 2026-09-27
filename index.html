@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Aryan Sharma — Full-Stack Developer</title>
+<meta name="description" content="Full-stack developer building fast, production-ready web apps with an AI-accelerated workflow." />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Aryan Sharma — Full-Stack Developer" />
+<meta property="og:description" content="I build fast, production-ready web apps — landing pages, full stacks, API integrations." />
+<meta property="og:type" content="website" />
+
+<link rel="icon" type="image/png" href="assets/favicon.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav">
+  <div class="wrap">
+    <a href="#top" class="nav-logo">
+      <img src="assets/logo.png" alt="Logo" onerror="this.style.display='none'">
+      Aryan Sharma
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="#work">Work</a>
+      <a href="#process">Process</a>
+      <a href="#stack">Stack</a>
+      <a href="#services">Services</a>
+      <a href="#contact" class="nav-cta">Hire Me</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="hero-eyebrow reveal d1">Full-Stack Developer</p>
+      <h1 class="reveal d2">I build web apps that ship fast — without cutting corners on quality.</h1>
+      <p class="hero-sub reveal d3">Landing pages, full-stack products, and API integrations, delivered on tight timelines using a modern, AI-accelerated workflow. Same craftsmanship, faster turnaround.</p>
+      <div class="hero-actions reveal d4">
+        <a href="#work" class="btn btn-primary">View my work</a>
+        <a href="#contact" class="btn btn-outline">Let's talk</a>
+      </div>
+      <div class="hero-stats reveal d4">
+        <div>
+          <div class="stat-num">12+</div>
+          <div class="stat-label">Projects shipped</div>
+        </div>
+        <div>
+          <div class="stat-num">&lt;24h</div>
+          <div class="stat-label">Avg. response time</div>
+        </div>
+        <div>
+          <div class="stat-num">100%</div>
+          <div class="stat-label">Client satisfaction</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-portrait reveal d2">
+      <img src="assets/profile.jpg" alt="Aryan Sharma" onerror="this.parentElement.innerHTML='<div style=\'display:flex;align-items:center;justify-content:center;height:100%;color:#9aa1ab;font-size:0.85rem;text-align:center;padding:20px\'>Apni photo yahan daalo:<br>assets/profile.jpg</div>'">
+    </div>
+  </div>
+</header>
+
+<!-- ============ PROCESS (AI workflow transparency) ============ -->
+<section class="process" id="process">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>How I actually work</h2>
+      <p>Full transparency on process — I use AI tools the way a professional uses any tool: to move faster, not to cut quality.</p>
+    </div>
+    <div class="process-steps">
+      <div class="process-step">
+        <div class="num">01</div>
+        <h3>Scope it properly</h3>
+        <p>Every project starts with a clear brief — what it needs to do, for whom, and by when.</p>
+      </div>
+      <div class="process-step">
+        <div class="num">02</div>
+        <h3>Build with AI assistance</h3>
+        <p>I use tools like Claude to accelerate boilerplate, drafts, and repetitive code — same way others use IDEs or frameworks.</p>
+      </div>
+      <div class="process-step">
+        <div class="num">03</div>
+        <h3>Review every line</h3>
+        <p>Nothing ships unreviewed. I read, test, and rewrite anything that doesn't meet the bar.</p>
+      </div>
+      <div class="process-step">
+        <div class="num">04</div>
+        <h3>Ship &amp; support</h3>
+        <p>Deployed, documented, and supported after handoff — not abandoned at delivery.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STACK ============ -->
+<section id="stack">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Tools &amp; technologies</h2>
+      <p>What I actually build with, day to day.</p>
+    </div>
+    <div class="stack-grid" id="stackGrid"></div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section id="work">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Selected work</h2>
+      <p>A few projects I've built recently. Each one links to a live demo and the source.</p>
+    </div>
+    <div class="filter-bar" id="filterBar"></div>
+    <div class="projects-grid" id="projectsGrid"></div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section id="services" style="background:var(--panel); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>What I can build for you</h2>
+      <p>Clear scopes, clear timelines.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Landing pages</h3>
+        <p>Fast, conversion-focused single pages for products, launches, or personal brands. Delivered in days, not weeks.</p>
+      </div>
+      <div class="service-card">
+        <h3>Full web applications</h3>
+        <p>End-to-end apps with frontend, backend logic, and database — dashboards, tools, internal systems.</p>
+      </div>
+      <div class="service-card">
+        <h3>API &amp; third-party integration</h3>
+        <p>Payment gateways, auth systems, email/SMS services, or AI APIs wired cleanly into your product.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section id="testimonials">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>What clients say</h2>
+      <p>Real feedback from real projects.</p>
+    </div>
+    <div class="testimonial-card">
+      <p class="quote">"Delivered exactly what we asked for, ahead of schedule, and explained every decision along the way. Would work with again without hesitation."</p>
+      <div class="testimonial-who">
+        <img src="assets/testimonial1.jpg" alt="" onerror="this.style.display='none'">
+        <div>
+          <div class="name">Client name</div>
+          <div class="role">Role, Company — via Fiverr</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Let's build something</h2>
+      <p>Tell me what you need — I'll reply within a day.</p>
+    </div>
+    <div class="contact-grid">
+      <form class="contact-form" id="contactForm">
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Your email" required />
+        <textarea name="message" placeholder="What are you looking to build?" required></textarea>
+        <button type="submit" class="btn btn-primary">Send message</button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+      <div class="contact-info">
+        <span class="response-badge"><span class="pulse"></span> Usually responds within 24 hours</span>
+        <div class="contact-info-item">
+          <div class="label">Email</div>
+          <a href="mailto:you@example.com" class="value">you@example.com</a>
+        </div>
+        <div class="contact-info-item">
+          <div class="label">Fiverr</div>
+          <a href="#" class="value">fiverr.com/yourusername</a>
+        </div>
+        <div class="contact-info-item">
+          <div class="label">GitHub</div>
+          <a href="#" class="value">github.com/yourusername</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-row">
+    <span>&copy; 2026 Aryan Sharma. Built with HTML, CSS &amp; JS.</span>
+    <div class="footer-links">
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Fiverr</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ CHAT WIDGET ============ -->
+<button class="chat-toggle" id="chatToggle" aria-label="Open assistant">💬</button>
+<div class="chat-window" id="chatWindow">
+  <div class="chat-header">
+    Ask me anything
+    <span>Quick answers about my work &amp; process</span>
+  </div>
+  <div class="chat-body" id="chatBody"></div>
+  <div class="chat-quick" id="chatQuick"></div>
+  <div class="chat-input-row">
+    <input type="text" id="chatInput" placeholder="Type a question..." />
+    <button id="chatSend">Send</button>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
