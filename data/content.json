@@ -6,14 +6,26 @@
     "description": "Portfolio of an SSC CGL aspirant and AI web developer building real projects while preparing to become an officer.",
     "url": "",
     "themeDefault": "dark",
-    "themeColor": "#0a1020"
+    "themeColor": "#0a1020",
+    "image": ""
   },
   "hero": {
     "greeting": "Hello, welcome to",
-    "taglines": ["An SSC CGL aspirant", "An AI web developer", "A self-taught builder", "A future officer"],
+    "taglines": [
+      "An SSC CGL aspirant",
+      "An AI web developer",
+      "A self-taught builder",
+      "A future officer"
+    ],
     "intro": "Two years of SSC preparation, two CGL attempts, and one belief: discipline in study and discipline in code come from the same place. I am writing my way from techie to officer.",
-    "primaryCta": { "label": "See my projects", "target": "#projects" },
-    "secondaryCta": { "label": "Get in touch", "target": "#contact" }
+    "primaryCta": {
+      "label": "See my projects",
+      "target": "#projects"
+    },
+    "secondaryCta": {
+      "label": "Get in touch",
+      "target": "#contact"
+    }
   },
   "about": {
     "heading": "Two desks, one goal",
@@ -26,57 +38,184 @@
     ],
     "photo": "",
     "facts": [
-      { "label": "Prep time", "value": "2 years" },
-      { "label": "CGL attempts", "value": "2" },
-      { "label": "Live projects", "value": "3" }
+      {
+        "label": "Prep time",
+        "value": "2 years"
+      },
+      {
+        "label": "CGL attempts",
+        "value": "2"
+      },
+      {
+        "label": "Live projects",
+        "value": "3"
+      }
     ]
   },
   "ssc": {
     "heading": "SSC journey",
-    "exam": { "name": "SSC CGL", "date": "2026-10-23T09:00:00+05:30" },
-    "syllabus": { "label": "Syllabus completed", "percent": 90 },
+    "exam": {
+      "name": "SSC CGL",
+      "date": "2026-10-23T09:00:00+05:30"
+    },
+    "syllabus": {
+      "label": "Syllabus completed",
+      "percent": 90
+    },
     "summary": "Two years of preparation and two CGL attempts so far. The next exam is close, and the focus now is revision and mock practice.",
     "timeline": [
-      { "title": "Started SSC preparation", "text": "Began full-time preparation about two years ago.", "state": "done" },
-      { "title": "First CGL attempt", "text": "Appeared and did not clear. Learned where the gaps were.", "state": "done" },
-      { "title": "Second CGL attempt", "text": "Appeared again and did not clear. Came back with a stronger plan.", "state": "done" },
-      { "title": "Learned to build with AI", "text": "Started building real websites and apps with AI alongside studies.", "state": "done" },
-      { "title": "Next exam", "text": "SSC CGL on 23 October. Syllabus is 90% covered.", "state": "next" }
-    ]
+      {
+        "title": "Started SSC preparation",
+        "text": "Began full-time preparation about two years ago.",
+        "state": "done"
+      },
+      {
+        "title": "First CGL attempt",
+        "text": "Appeared and did not clear. Learned where the gaps were.",
+        "state": "done"
+      },
+      {
+        "title": "Second CGL attempt",
+        "text": "Appeared again and did not clear. Came back with a stronger plan.",
+        "state": "done"
+      },
+      {
+        "title": "Learned to build with AI",
+        "text": "Started building real websites and apps with AI alongside studies.",
+        "state": "done"
+      },
+      {
+        "title": "Next exam",
+        "text": "SSC CGL on 23 October. Syllabus is 90% covered.",
+        "state": "next"
+      }
+    ],
+    "streak": {
+      "startDate": "",
+      "label": "day study streak"
+    },
+    "mocks": {
+      "heading": "Mock test scores",
+      "items": []
+    }
   },
   "coding": {
     "heading": "Coding journey",
     "intro": "Learned step by step, from a plain web page to deployed full-stack apps.",
     "timeline": [
-      { "title": "HTML", "text": "Structure of the web. The starting point." },
-      { "title": "React", "text": "Component-based interfaces for modern apps." },
-      { "title": "PHP and databases", "text": "Server-side logic and storing real data." },
-      { "title": "Node.js", "text": "JavaScript on the server and APIs." },
-      { "title": "Deployment", "text": "Shipping to the internet with Render, Vercel, Netlify and Railway." }
+      {
+        "title": "HTML",
+        "text": "Structure of the web. The starting point."
+      },
+      {
+        "title": "React",
+        "text": "Component-based interfaces for modern apps."
+      },
+      {
+        "title": "PHP and databases",
+        "text": "Server-side logic and storing real data."
+      },
+      {
+        "title": "Node.js",
+        "text": "JavaScript on the server and APIs."
+      },
+      {
+        "title": "Deployment",
+        "text": "Shipping to the internet with Render, Vercel, Netlify and Railway."
+      }
     ]
   },
   "projects": {
     "heading": "Projects",
     "intro": "Live projects you can open right now.",
     "items": [
-      { "name": "Shri Krishan Logistics", "description": "A website for a logistics business.", "tech": ["Web", "Vercel"], "live": "https://shrikrishanlogistics.vercel.app", "github": "" },
-      { "name": "ChatVixen", "description": "A chat application.", "tech": ["Web", "Vercel"], "live": "https://chatvixen.vercel.app", "github": "" },
-      { "name": "Kodex Hub", "description": "A hub for coding resources.", "tech": ["Web", "Vercel"], "live": "https://kodex-hub.vercel.app", "github": "" }
+      {
+        "name": "Shri Krishan Logistics",
+        "description": "A website for a logistics business.",
+        "tech": [
+          "Web",
+          "Vercel"
+        ],
+        "live": "https://shrikrishanlogistics.vercel.app",
+        "github": "",
+        "image": ""
+      },
+      {
+        "name": "ChatVixen",
+        "description": "A chat application.",
+        "tech": [
+          "Web",
+          "Vercel"
+        ],
+        "live": "https://chatvixen.vercel.app",
+        "github": "",
+        "image": ""
+      },
+      {
+        "name": "Kodex Hub",
+        "description": "A hub for coding resources.",
+        "tech": [
+          "Web",
+          "Vercel"
+        ],
+        "live": "https://kodex-hub.vercel.app",
+        "github": "",
+        "image": ""
+      }
     ]
   },
   "skills": {
     "heading": "Skills",
     "groups": [
-      { "name": "Frontend", "items": ["HTML", "React"] },
-      { "name": "Backend", "items": ["PHP", "Node.js", "Databases"] },
-      { "name": "Deployment", "items": ["Vercel", "Netlify", "Render", "Railway"] },
-      { "name": "Working style", "items": ["AI-assisted development", "Daily discipline"] }
+      {
+        "name": "Frontend",
+        "items": [
+          "HTML",
+          "React"
+        ]
+      },
+      {
+        "name": "Backend",
+        "items": [
+          "PHP",
+          "Node.js",
+          "Databases"
+        ]
+      },
+      {
+        "name": "Deployment",
+        "items": [
+          "Vercel",
+          "Netlify",
+          "Render",
+          "Railway"
+        ]
+      },
+      {
+        "name": "Working style",
+        "items": [
+          "AI-assisted development",
+          "Daily discipline"
+        ]
+      }
     ]
   },
-  "resume": { "file": "", "label": "Download resume" },
-  "gallery": { "heading": "Gallery", "items": [] },
-  "quotes": { "heading": "Words I live by", "items": [] },
-  "blog": { "heading": "Updates", "items": [] },
+  "resume": {
+    "file": "",
+    "label": "Download resume"
+  },
+  "gallery": {
+    "heading": "Gallery",
+    "items": []
+  },
+  "quotes": {
+    "heading": "Words I live by",
+    "items": []
+  },
+  "blog": {
+    "heading": "Updates",
+    "items": []
+  },
   "contact": {
     "heading": "Let us talk",
     "text": "Have a project, an idea, or advice for an SSC aspirant? Send a message.",
@@ -84,5 +223,7 @@
     "subject": "Hello from your portfolio",
     "socials": []
   },
-  "footer": { "text": "Built with discipline, one day at a time." }
+  "footer": {
+    "text": "Built with discipline, one day at a time."
+  }
 }
