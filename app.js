@@ -158,7 +158,8 @@ document.querySelectorAll('main section').forEach(s=>io.observe(s));
 }
 
 function scrollbar(){
-const b=$('#scrollbar');
+let b=$('#scrollbar');
+if(!b){b=document.createElement('div');b.id='scrollbar';document.body.prepend(b)}
 const f=()=>{const m=document.documentElement.scrollHeight-innerHeight;b.style.transform='scaleX('+(m>0?Math.min(1,scrollY/m):0)+')'};
 addEventListener('scroll',f,{passive:true});addEventListener('resize',f);f();
 }
